@@ -45,7 +45,7 @@ window.addEventListener("DOMContentLoaded", () => {
 // ===============================
 
 async function loadMeals() {
-  const areaSelect = document.getElementById("delivery-area");
+  const areaSelect = document.getElementById("area-select");
   const area = areaSelect.value;
   const mealsContainer = document.getElementById("meals-container");
 
