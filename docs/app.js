@@ -134,7 +134,9 @@ async function submitOrder(evt) {
 
   const nameInput = document.getElementById("customer-name");
   const addressInput = document.getElementById("customer-address");
-  const statusEl = document.getElementById("order-status");
+  const statusEl = document.getElementById("order-confirmation");
+  const areaSelect = document.getElementById("area-select");
+  const area       = areaSelect.value;
 
   const customerName = nameInput.value.trim();
   const customerAddress = addressInput.value.trim();
