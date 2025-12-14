@@ -29,14 +29,14 @@ window.addEventListener("DOMContentLoaded", () => {
       placeOrderBtn.addEventListener("click", submitOrder);
     }
 
-    return;
+
   }
 
   // Restaurant view?
   const registerMealBtn = document.getElementById("register-meal-btn");
   if (registerMealBtn) {
     registerMealBtn.addEventListener("click", registerMeal);
-    return;
+
   }
 });
 
