@@ -177,8 +177,7 @@ async function submitOrder(evt) {
       name: m.name ?? m.dishName,
       price: Number(m.price ?? 0),
       restaurantName: m.restaurantName,
-      // Backend expects 'prepMinutes'
-      prepMinutes: m.prepMinutes ?? m.prepTimeMinutes ?? 0,
+      prepTimeMinutes: m.prepMinutes ?? m.prepTimeMinutes ?? 0,
       quantity: quantities.get(m.mealId) || 1
     }));
 
