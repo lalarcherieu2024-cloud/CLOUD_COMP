@@ -207,7 +207,7 @@ async function submitOrder(evt) {
   const payload = {
     customerName,
     customerAddress,
-    area: document.getElementById("delivery-area").value,
+    area,
     selectedMeals,
     totalCost,
     estimatedMinutes
